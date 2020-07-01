@@ -102,6 +102,7 @@
     <Folder Include="models\" />
     <Folder Include="models\cart\" />
     <Folder Include="models\location\" />
+    <Folder Include="models\order\" />
     <Folder Include="models\user\" />
     <Folder Include="models\product\" />
     <Folder Include="controllers\" />
