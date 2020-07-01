@@ -1,0 +1,5 @@
+github 에서 repository 생성
+로컬로 가서, 업로드할 폴더로 이동
+git init :커맨더 창에서 아래의 명령어를 통해, 위의 폴더를 git이 추적할 수 있도록 .git 폴더를 생성. 즉, local repository를 생성.
+git status :git이 버전관리 대상 파일들의 상태를 파악
+git add . :버전 관리할 �

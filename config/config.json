@@ -1,0 +1,14 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "./bmesnoderestapi.db"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": "./bmesnoderestapi.db"
+  },
+  "production": {
+    "dialect": "sqlite",
+    "storage": "./bmesnoderestapi.db"
+  }
+}
