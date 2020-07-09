@@ -149,7 +149,16 @@ work to do 6 :implement customer registration
 				execute database migration for person and customer models
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 work to do 7 :structure order and checkout section 
-					npx sequelize model:generate --models-path models/order --name Person --attributes
+			  create the order and orderItem models:
+				:npx sequelize model:generate --models-path models/order --name Order --attributes orderTotal:decimal,orderItemTotal:decimal,shippingCharge:decimal,orderStatus:enum
+				 npx sequelize model:generate --models-path models/order --name OrderItem --attributes quantity:integer,price:decimal
+			  set the proper Database fiels types for the models
+			  understand the relationship between models 	
+----------------------------------------------------------------------------------------------------------------------------------------------------
+work to do 8 :checkout service
+			    the checkout service will implement the following method:
+				 processCheckout(request)
+				
 ** error message info
 1. npm installation error / EINVAL: invalid argument, read
 2. ERR_PACKAGE_PATH_NOT_EXPORTED : Package subpath './v4' is not defined by "exports" in D:\starter\node_modules\uuid\package.json

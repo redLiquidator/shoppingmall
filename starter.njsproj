@@ -36,6 +36,9 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="controllers\category.controller.js" />
+    <Content Include="controllers\checkout.controller.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="controllers\product.controller.js">
       <SubType>Code</SubType>
     </Content>
@@ -50,10 +53,14 @@
     <Content Include="migrations\20200701070739-create-person.js" />
     <Content Include="migrations\20200701070751-create-customer.js" />
     <Content Include="migrations\20200701071154-create-customer-address.js" />
+    <Content Include="migrations\20200701082848-create-order.js" />
+    <Content Include="migrations\20200701082856-create-order-item.js" />
     <Content Include="models\cart\cart.js" />
     <Content Include="models\cart\cartitem.js" />
     <Content Include="models\index.js" />
     <Content Include="models\location\address.js" />
+    <Content Include="models\order\order.js" />
+    <Content Include="models\order\orderitem.js" />
     <Content Include="models\user\customer.js" />
     <Content Include="models\user\customeraddress.js" />
     <Content Include="models\user\person.js" />
@@ -70,6 +77,7 @@
     <Content Include="routers\category\category.router.js">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="routers\checkout\checkout.router.js" />
     <Content Include="routers\index.js" />
     <Content Include="routers\product\product.router.js">
       <SubType>Code</SubType>
@@ -87,6 +95,9 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="services\category.service.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="services\checkout.service.js">
       <SubType>Code</SubType>
     </Content>
     <Content Include="services\product.service.js">
@@ -111,6 +122,7 @@
     <Folder Include="routers\brand\" />
     <Folder Include="routers\cart\" />
     <Folder Include="routers\category\" />
+    <Folder Include="routers\checkout\" />
     <Folder Include="routers\product\" />
     <Folder Include="services\" />
     <Folder Include="swagger\" />

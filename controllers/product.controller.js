@@ -29,6 +29,7 @@ var getPagedProducts = function (req, res) {
 
 /* create a new product */
 var createProduct = function (req, res) {
+    console.log('createProduct function /controller');
     productService.createProduct(req).then(product => {
         res.status(200).json({
             product: product,
