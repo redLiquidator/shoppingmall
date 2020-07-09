@@ -63,7 +63,6 @@ var processCheckout = function (request) {
                 personId: person.id,
                 isDeleted: false
             }).then(customer => {
-
                 customerAddressModel.create({
                     customerId: customer.id,
                     addressId: address.id

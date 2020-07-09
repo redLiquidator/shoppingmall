@@ -55,6 +55,10 @@
     <Content Include="migrations\20200701071154-create-customer-address.js" />
     <Content Include="migrations\20200701082848-create-order.js" />
     <Content Include="migrations\20200701082856-create-order-item.js" />
+    <Content Include="migrations\20200709031039-create-customer.js" />
+    <Content Include="migrations\20200709043408-create-customer.js" />
+    <Content Include="migrations\20200709043730-create-customer.js" />
+    <Content Include="migrations\20200709043755-create-customer.js" />
     <Content Include="models\cart\cart.js" />
     <Content Include="models\cart\cartitem.js" />
     <Content Include="models\index.js" />

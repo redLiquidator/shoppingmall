@@ -8,18 +8,20 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
+      id: {
+        type: Sequelize.INTEGER
+      },
       personId: {
-        type: Sequelize.INTEGER,
-        references: {
-          model: 'People',
-          key: 'id'
-        },
-        onDelete: 'cascade',
-        onUpdate: 'cascade'
+        type: Sequelize.INTEGER
       },
       isDeleted: {
-        type: Sequelize.BOOLEAN,
-        defaultValue: false
+        type: Sequelize.BOOLEAN
+      },
+      createdAt: {
+        type: Sequelize.DATE
+      },
+      updatedAt: {
+        type: Sequelize.DATE
       },
       createdAt: {
         allowNull: false,
