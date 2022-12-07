@@ -10,10 +10,10 @@
     "name": ""
   },
   "dependencies": {
-    "body-parser": "^1.15.0",
+    "body-parser": "^1.20.1",
     "cookie-parser": "^1.4.0",
     "debug": "^2.2.0",
-    "express": "^4.14.0",
+    "express": "^4.18.2",
     "express-paginate": "^1.0.0",
     "express-session": "^1.17.1",
     "install": "^0.13.0",
